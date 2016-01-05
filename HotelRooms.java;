@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class HotelRooms {
+  private int rooms;
+  private int remainingRooms;
+
+}
