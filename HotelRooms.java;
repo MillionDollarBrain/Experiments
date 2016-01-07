@@ -1,6 +1,25 @@
 import java.util.Scanner;
 public class HotelRooms {
-  private int rooms;
+  private int[] rooms = {0,0,0,0,0,0,0,0,0};
   private int remainingRooms;
+  void setRemainingRooms() {
+     private int result;
+     for(i=0; i<rooms.length(); i++) {
+        if(rooms[i] =! 0) {
+           result++;
+           } 
+        }
+     remainingRooms = result;
+  }
+  int[] getRooms(key) {
+    return rooms[key];
+  }
+  setRooms(key, value) {
+    rooms[key] = value;
+    setRemainngRooms();
+  }
+  int getRemainingRooms() {
+    return remainingRooms;
+  }
 
 }
