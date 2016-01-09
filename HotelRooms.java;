@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class HotelRooms {
-  private int[] rooms = {0,0,0,0,0,0,0,0,0};
+  private int[] rooms;
   private int remainingRooms;
   void setRemainingRooms() {
      private int result;
@@ -11,15 +11,22 @@ public class HotelRooms {
         }
      remainingRooms = result;
   }
-  int[] getRooms(key) {
+  int[] getRooms(int key) {
     return rooms[key];
   }
-  setRooms(key, value) {
+  setRooms(int key, int value) {
     rooms[key] = value;
     setRemainngRooms();
   }
   int getRemainingRooms() {
     return remainingRooms;
   }
-
+  public HotelRooms(int arraylen) {
+    private rooms = new int[arraylen];
+    while 0<1 {
+    System.out.println("What is the functions you would like to perform? Type help to learn more");
+      Scanner input = new Scanner(System.in);
+      String str = input.next()
+    }
+  }
 }
